@@ -1,5 +1,7 @@
 # parse-input-stream
 
+![dat](http://img.shields.io/badge/Development%20sponsored%20by-dat-green.svg?style=flat)
+
 Parse a tabular input stream. Can be used to pipe a buffered stream and attempts to parse it as a table -- csv, json, objects, or ndjson are supported.
 
 ```
