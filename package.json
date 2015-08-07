@@ -1,6 +1,6 @@
 {
   "name": "parse-input-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![NPM](https://nodei.co/npm/parse-input-stream.png)](https://nodei.co/npm/parse-input-stream/)",
   "main": "index.js",
   "scripts": {
