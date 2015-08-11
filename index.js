@@ -11,10 +11,10 @@ module.exports = parseStream
 
 function parseStream (opts) {
   if (!opts) opts = {}
-  if (opts.f === 'csv') return parseCSV(opts.separator)
-  if (opts.f === 'tsv') return parseCSV('\t')
-  if (opts.f === 'json') return parseJSON(opts.jsonpath)
-  if (opts.f === 'objects') return parseObjects()
+  if (opts.format === 'csv') return parseCSV(opts.separator)
+  if (opts.format === 'tsv') return parseCSV('\t')
+  if (opts.format === 'json') return parseJSON(opts.jsonpath)
+  if (opts.format === 'objects') return parseObjects()
 
   var detectMax = opts.detectMax || 8000
 
