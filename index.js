@@ -11,7 +11,7 @@ module.exports = parseStream
 
 function parseStream (opts) {
   if (!opts) opts = {}
-  
+
   switch (opts.format || opts.f) {
     case 'csv': return parseCSV(opts.separator)
     case 'tsv': return parseCSV('\t')
